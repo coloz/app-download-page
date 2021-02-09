@@ -1,0 +1,10 @@
+<div class="full-box">
+  <img class="icon" src="{{icon}}" alt="">
+  <div class="name">{{title}}</div>
+  <button class="download" (click)="onClick()">下载安装</button>
+</div>
+<div class="tip animated tada" *ngIf="showTip">
+  <div class="bubbleTail"></div>
+  请点击右上角选择 <span>浏览器中打开</span>
+</div>
+<router-outlet></router-outlet>

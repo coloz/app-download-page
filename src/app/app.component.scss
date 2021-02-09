@@ -1,0 +1,61 @@
+.full-box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 30vw;
+}
+
+.download {
+    margin-top: 30px;
+    height: 50px;
+    font-size: 18px;
+    color: #FFF;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(28, 164, 248);
+}
+
+.name {
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.tip {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: rgb(28, 164, 248);
+    border-radius: 10px;
+    color: #FFF;
+    padding: 15px;
+    font-size: 13px;
+    span{
+        font-weight: 700;
+    }
+}
+
+.bubbleTail {
+    position: absolute;
+    bottom: 100%;
+    right: 2px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    margin-bottom: -9px;
+    border-bottom-width: 18px;
+    border-bottom-color: currentColor;
+    color: rgb(28, 164, 248);
+}
